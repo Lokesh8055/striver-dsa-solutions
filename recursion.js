@@ -41,3 +41,30 @@ const printTillOneBackTrack = (i, n) => {
 
 printTillOneBackTrack(1, 4)
 
+// sum of first N numbers
+// parameterised way
+const SumOfNumbersParameter = (i , sum) => {
+    if(i < 1) {
+        console.log(sum);
+        return;
+    }
+    SumOfNumbersParameter(i - 1, sum + i)
+}
+
+SumOfNumbersParameter(3, 0)
+
+// Time and space complexity - O(n)
+const sumWithFunction = (n) => {
+   if(n === 0) return 0;
+   return n + sumWithFunction(n - 1);
+}
+
+console.log(sumWithFunction(3));
+
+// Time and space complexity - O(n)
+const factorialNumber = (n) => {
+    if(n === 0) return 1;
+    return n * factorialNumber(n - 1);
+}
+
+console.log(factorialNumber(4))
