@@ -68,3 +68,21 @@ const factorialNumber = (n) => {
 }
 
 console.log(factorialNumber(4))
+
+// Reverse an array
+// 2 pointer
+const swap = (arr, i, j) => {
+    const temp = arr[i];
+    arr[i] = arr[j];
+    arr[j] = temp;
+}
+
+const reverseArray = (arr, start = 0, end = arr.length - 1) => {
+    if(start >= end) return arr;
+    swap(arr, start, end);
+    return reverseArrayTwoPointer(arr, start + 1, end - 1);
+}
+
+const arr = [1, 2, 3, 4, 5];
+reverseArray(arr);
+console.log('Reversed array:', arr);
