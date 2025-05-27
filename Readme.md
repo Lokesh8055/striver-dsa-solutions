@@ -5,6 +5,7 @@ This repository contains JavaScript implementations of various Data Structures a
 ## Contents
 
 ### 1. Basic Maths
+
 - Count digits in a number
 - Reverse a number
 - Check palindrome
@@ -14,6 +15,7 @@ This repository contains JavaScript implementations of various Data Structures a
 - Greatest Common Factor (GCD)
 
 ### 2. Patterns
+
 - Rectangular pattern
 - Right angle triangle pattern
 - Number patterns
@@ -24,6 +26,7 @@ This repository contains JavaScript implementations of various Data Structures a
 - Binary number pattern
 
 ### 3. Recursion
+
 - Basic recursion problems
 - Backtracking examples
 - Sum of first N numbers
@@ -46,6 +49,7 @@ This repository contains JavaScript implementations of various Data Structures a
 ## Contributing
 
 Feel free to contribute to this repository by:
+
 1. Adding new solutions
 2. Improving existing solutions
 3. Adding comments and explanations
